@@ -21,3 +21,13 @@ Visit.create(:visitor_id => 1, :url_id => 2)
 Visit.create(:visitor_id => 2, :url_id => 2)
 Visit.create(:visitor_id => 2, :url_id => 1)
 Visit.create(:visitor_id => 3, :url_id => 1)
+Visit.create(:visitor_id => 1, :url_id => 1)
+
+TagTopic.create(:tag_name => 'ruby')
+TagTopic.create(:tag_name => 'rails')
+TagTopic.create(:tag_name => 'java')
+
+Tag.create(:tag_id => 1, :url_id => 1)
+Tag.create(:tag_id => 1, :url_id => 2)
+Tag.create(:tag_id => 1, :url_id => 3)
+Tag.create(:tag_id => 2, :url_id => 1)
